@@ -1,0 +1,71 @@
+body {
+  font-family: 'Tektur', cursive;
+  background: linear-gradient(90deg, #783d3d, #a486ff, #1e4f7a9e);
+  
+}
+
+a {
+color:rgb(0, 0, 0);
+}
+
+#name {
+    background-color: rgba(0, 0, 0, 0.007);
+    
+}
+
+.menu{
+    color: rgba(0, 0, 255, 0.479);
+}
+
+.btn {
+    background-color: #ddd;
+    border: 2;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 13px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0000009a;
+    color: rgb(175, 52, 52);
+  }
+
+  #backbut {
+    border: 1px dashed;
+    cursor: pointer;
+  }
+  
+  #donate {
+    font-size: 40px;
+  }
+
+  a {
+    font-family: "Tektur", cursive;
+  }
+
+  #textprog {
+    margin-top: -2%;
+  }
+
+  #info {
+      border: 3px solid #000000; background-color: #0000006b; padding-bottom: 2%;
+  }
+
+  #forprog {
+    border: 3px solid #000000; background-color: #0000006b; padding: 9px;
+  }
+
+  #youtube {
+    -moz-box-shadow:0 0 20px #000;
+-webkit-box-shadow:0 0 16px #000;
+box-shadow:0 0 12px #000;
+  }
+
+  #ops {
+    padding-top:10%
+  }
+
+  
