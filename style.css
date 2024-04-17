@@ -1,11 +1,13 @@
 body {
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: black 0.1mm;
   font-family: 'Tektur', cursive;
-  background: linear-gradient(90deg, #783d3d, #a486ff, #1e4f7a9e);
+  background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614395328_56-p-temnii-vecher-fon-71.jpg)
   
 }
 
-a {
-color:rgb(0, 0, 0);
+a { 
+color:rgb(45, 157, 223);
 }
 
 #name {
@@ -19,18 +21,18 @@ color:rgb(0, 0, 0);
 
 .btn {
     background-color: #ddd;
-    border: 2;
-    color: black;
+    color: rgb(255, 0, 0);
     padding: 10px 20px;
-    text-align: center;
+    padding-top: 1mm;
     font-size: 13px;
     margin: 4px 2px;
     transition: 0.3s;
+    border-radius: 10%;
   }
   
   .btn:hover {
-    background-color: #0000009a;
-    color: rgb(175, 52, 52);
+    background-color: #0400ff18;
+    color: rgb(255, 0, 0);
   }
 
   #backbut {
@@ -68,4 +70,51 @@ box-shadow:0 0 12px #000;
     padding-top:10%
   }
 
+  #logo {
+    vertical-align: top;
+  }
   
+  .pillars {
+      margin: 20px 0 0 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(auto, 1fr));
+      grid-column-gap: 5px;
+      grid-row-gap: 5px;
+      background: #0000009c;
+      padding: 20px;
+      backdrop-filter: blur(25px);
+  }
+  .cnt-lnk {
+      padding: 5px;
+  }
+  .cnt-lnk:hover {
+      cursor: pointer;
+      background-color: #ffffff15;
+  }
+  .cnt-lnk:active {
+      background-color: #ffffff10;
+  }
+  .cnt-txt {
+      display: flex;
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+      transition: all 0.1s ease-in-out;
+  }
+  .cnt-txt:active {
+      opacity: 0.6;
+      transition: all 0.1s ease-in-out;
+      transform: scale(0.96);
+  }
+  .cnt-main-txt {
+     color: white;
+      font-size: 20px;
+      font-weight: normal;
+      padding: 5px;
+  }
+  .cnt-info-txt {
+      color: #ffffff70;
+      font-weight: normal;
+      font-size: 16px;
+      padding: 5px;
+  }
